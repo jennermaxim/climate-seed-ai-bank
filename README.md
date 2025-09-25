@@ -1,10 +1,10 @@
 # Climate-Adaptive Seed AI Bank
 
-## 🌱 Overview
+## Overview
 
 The Climate-Adaptive Seed AI Bank is a comprehensive digital platform designed to revolutionize agriculture in Uganda by providing AI-powered seed recommendations based on climate resilience, soil conditions, and environmental projections. This platform serves farmers, agricultural advisors, and policymakers with data-driven insights for climate-adaptive agriculture.
 
-## 🎯 Key Features
+## Key Features
 
 ### For Farmers
 - **Smart Seed Recommendations**: AI-powered suggestions based on your farm's location, soil conditions, and climate projections
@@ -27,7 +27,7 @@ The Climate-Adaptive Seed AI Bank is a comprehensive digital platform designed t
 - **Seasonal Planning Tools**: Optimize planting schedules and crop rotations
 - **Market Intelligence**: Price trends and market demand insights
 
-## 🏗️ System Architecture
+## System Architecture
 
 ### Backend (FastAPI + Python)
 ```
@@ -72,7 +72,7 @@ frontend/
 └── public/                     # Static assets
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.8+ (Backend)
@@ -140,7 +140,7 @@ npm start
 
 The frontend will be available at http://localhost:3000
 
-## 🔧 Configuration
+## Configuration
 
 ### Backend Environment Variables (.env)
 ```env
@@ -170,7 +170,7 @@ REACT_APP_MAP_DEFAULT_LNG=32.5825
 REACT_APP_MAP_DEFAULT_ZOOM=7
 ```
 
-## 📊 Database Models
+## Database Models
 
 ### Core Entities
 
@@ -199,7 +199,7 @@ REACT_APP_MAP_DEFAULT_ZOOM=7
 - Climate projections and trends
 - Seasonal patterns and variability
 
-## 🤖 AI Recommendation Engine
+## AI Recommendation Engine
 
 The system uses machine learning models for intelligent seed recommendations:
 
@@ -215,12 +215,12 @@ The system uses machine learning models for intelligent seed recommendations:
 
 ### Recommendation Process
 1. **Environmental Analysis**: Current and projected conditions
-2. **Seed Matching**: Compatibility with farm conditions  
+2. **Seed Matching**: Compatibility with farm conditions
 3. **Risk Assessment**: Climate and market risk evaluation
 4. **Yield Prediction**: Expected performance estimates
 5. **Ranking**: Final recommendation scores and reasoning
 
-## 🌍 External API Integrations
+## External API Integrations
 
 ### OpenWeather API
 - Current weather conditions
@@ -242,7 +242,7 @@ The system uses machine learning models for intelligent seed recommendations:
 - Vegetation indices (NDVI, EVI)
 - Land use classification
 
-## 📱 User Interface
+## User Interface
 
 ### Dashboard Features
 - **Key Metrics Cards**: Farm count, yield improvements, alerts
@@ -261,7 +261,7 @@ Dashboard
 └── Settings
 ```
 
-## 🔐 Security Features
+## Security Features
 
 - **JWT Authentication**: Secure token-based authentication
 - **Password Hashing**: Bcrypt encryption for user passwords
@@ -269,7 +269,7 @@ Dashboard
 - **Input Validation**: Pydantic model validation
 - **Role-based Access**: Different permissions for user types
 
-## 📈 Analytics and Reporting
+## Analytics and Reporting
 
 ### Farmer Analytics
 - Personal farm performance metrics
@@ -289,7 +289,7 @@ Dashboard
 - Climate adaptation effectiveness
 - Market trend analysis
 
-## 🧪 Testing
+## Testing
 
 ### Backend Testing
 ```bash
@@ -306,7 +306,7 @@ npm test
 ### API Testing
 Use the interactive API documentation at http://localhost:8000/docs for manual testing.
 
-## 📦 Deployment
+## Deployment
 
 ### Backend Deployment
 
@@ -338,7 +338,7 @@ npm run build
 # Build and deploy automatically via git integration
 ```
 
-## 🤝 Contributing
+## Contributing
 
 ### Development Workflow
 1. Fork the repository
@@ -353,7 +353,7 @@ npm run build
 - **Git**: Conventional commit messages
 - **Documentation**: Update README for new features
 
-## 📄 API Documentation
+## API Documentation
 
 ### Authentication Endpoints
 ```
@@ -392,7 +392,7 @@ GET /analytics/yield-trends     # Yield trend analysis
 GET /analytics/seed-performance # Seed performance metrics
 ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -419,7 +419,7 @@ GET /analytics/seed-performance # Seed performance metrics
 - Run database migrations
 - Check for schema changes
 
-## 📞 Support and Resources
+## Support and Resources
 
 ### Documentation
 - [FastAPI Documentation](https://fastapi.tiangolo.com/)
@@ -434,18 +434,18 @@ GET /analytics/seed-performance # Seed performance metrics
 
 ### Professional Support
 Contact the development team for:
-- Custom deployment assistance  
+- Custom deployment assistance
 - Feature development
 - Training and workshops
 - Technical consulting
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Uganda National Agricultural Research Organisation (NARO)
 - Food and Agriculture Organization (FAO)
@@ -456,4 +456,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-*Building climate-resilient agriculture, one seed recommendation at a time.* 🌱
+*Building climate-resilient agriculture, one seed recommendation at a time.* 
