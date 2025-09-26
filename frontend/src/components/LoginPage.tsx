@@ -166,9 +166,9 @@ const LoginPage: React.FC = () => {
               Demo Accounts:
             </Typography>
             <Typography variant="caption" sx={{ display: 'block', mt: 1 }}>
-              <strong>Farmer:</strong> farmer / password<br />
-              <strong>Admin:</strong> admin / password<br />
-              <strong>Policy:</strong> policy / password
+              <strong>Farmer:</strong> farmer1 / password123<br />
+              <strong>Admin:</strong> admin / admin123<br />
+              <strong>Policy:</strong> policy1 / policy123
             </Typography>
           </Box>
         </Paper>

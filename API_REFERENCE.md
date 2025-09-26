@@ -4,7 +4,7 @@
 
 The Climate-Adaptive Seed AI Bank API provides comprehensive endpoints for managing farms, seeds, recommendations, and analytics. All endpoints return JSON responses and follow RESTful conventions.
 
-**Base URL**: `http://localhost:8000` (development) or `https://your-domain.com` (production)
+**Base URL**: `http://localhost:8000`
 
 ## Authentication
 
@@ -51,7 +51,7 @@ Login and receive access token.
 **Request Body:**
 ```json
 {
-  "username": "farmer@example.com",
+  "username": "farmer@eclimate.seed.ai.bank.ug",
   "password": "securepassword"
 }
 ```
@@ -63,8 +63,8 @@ Login and receive access token.
   "token_type": "bearer",
   "user": {
     "id": 1,
-    "email": "farmer@example.com",
-    "full_name": "John Doe",
+    "email": "farmer@climate.seed.ai.bank.ug",
+    "full_name": "Farmer Name",
     "user_type": "farmer",
     "location": "Kampala, Uganda"
   }
@@ -77,10 +77,10 @@ Create new user account.
 **Request Body:**
 ```json
 {
-  "email": "newfarmer@example.com",
+  "email": "newfarmer@climate.seed.ai.bank.ug",
   "password": "securepassword",
-  "full_name": "Jane Smith",
-  "phone": "+256701234567",
+  "full_name": "Farmer Name",
+  "phone": "+256740639860",
   "location": "Mbale, Uganda",
   "user_type": "farmer"
 }
@@ -90,8 +90,8 @@ Create new user account.
 ```json
 {
   "id": 2,
-  "email": "newfarmer@example.com",
-  "full_name": "Jane Smith",
+  "email": "newfarmer@climate.seed.ai.bank.ug",
+  "full_name": "Farmer Name",
   "user_type": "farmer",
   "location": "Mbale, Uganda",
   "created_at": "2024-01-15T10:30:00Z"
@@ -105,9 +105,9 @@ Get current user profile (requires authentication).
 ```json
 {
   "id": 1,
-  "email": "farmer@example.com",
-  "full_name": "John Doe",
-  "phone": "+256701234567",
+  "email": "farmer@climate.seed.ai.bank.ug",
+  "full_name": "Farmer Name",
+  "phone": "+256740639860",
   "location": "Kampala, Uganda",
   "user_type": "farmer",
   "created_at": "2024-01-10T08:00:00Z",
@@ -636,4 +636,4 @@ const recommendations = await api.recommendations.generate(1);
 
 ---
 
-*Complete API documentation for the Climate-Adaptive Seed AI Bank platform.* 📚
+*Complete API documentation for the Climate-Adaptive Seed AI Bank platform.*

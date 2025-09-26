@@ -83,7 +83,7 @@ frontend/
 
 1. **Clone the repository**
 ```bash
-git clone <repository-url>
+git clone https://github.com/jennermaxim/climate-seed-ai-bank.git
 cd climate-seed-ai-bank/backend
 ```
 
@@ -418,41 +418,6 @@ GET /analytics/seed-performance # Seed performance metrics
 - Verify database permissions
 - Run database migrations
 - Check for schema changes
-
-## Support and Resources
-
-### Documentation
-- [FastAPI Documentation](https://fastapi.tiangolo.com/)
-- [React Documentation](https://reactjs.org/docs/)
-- [Material-UI Documentation](https://mui.com/)
-- [SQLAlchemy Documentation](https://docs.sqlalchemy.org/)
-
-### Community
-- GitHub Issues for bug reports
-- Discussions for feature requests
-- Wiki for additional guides
-
-### Professional Support
-Contact the development team for:
-- Custom deployment assistance
-- Feature development
-- Training and workshops
-- Technical consulting
-
----
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- Uganda National Agricultural Research Organisation (NARO)
-- Food and Agriculture Organization (FAO)
-- CGIAR Climate Change, Agriculture and Food Security (CCAFS)
-- OpenWeather for weather data services
-- NASA POWER for climate data
-- All contributors and testers
 
 ---
 

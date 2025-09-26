@@ -40,7 +40,7 @@ brew install python nodejs npm git
 
 ### 2. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/jennermaxim/climate-seed-ai-bank.git
 cd climate-seed-ai-bank
 ```
 
@@ -443,4 +443,4 @@ CREATE INDEX idx_recommendations_farm_id ON seed_recommendations(farm_id);
 
 ---
 
-*Installation complete! Your Climate-Adaptive Seed AI Bank is ready to help build climate-resilient agriculture.* 🌱
+*Installation complete! Your Climate-Adaptive Seed AI Bank is ready to help build climate-resilient agriculture.*

@@ -385,6 +385,4 @@ Monitor and improve over time:
 
 ---
 
-*Making climate-smart agriculture accessible to everyone.* 🌱
-
-For additional support or feedback, please contact our team at support@climate-seed-bank.org or visit our community forum.
+*Making climate-smart agriculture accessible to everyone.*
